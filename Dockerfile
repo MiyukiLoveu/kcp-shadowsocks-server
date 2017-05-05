@@ -6,7 +6,7 @@
 # Base image to use, this must be set as the first line
 FROM ubuntu
 
-MAINTAINER Yale Huang <calvino.huang@gmail.com>
+
 
 # Commands to update the image
 RUN apt-get -y update && apt-get -y upgrade
